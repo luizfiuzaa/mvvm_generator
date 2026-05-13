@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(go version *)",
+      "Bash(go test *)",
+      "Bash(go build *)",
+      "Bash(rm -rf /tmp/mvvm_test)",
+      "Bash(mkdir /tmp/mvvm_test)",
+      "Read(//tmp/**)",
+      "Bash(/workspaces/ddoc/mvvm_generator/feature_mvvm_gen)",
+      "Read(//tmp/mvvm_test/**)"
+    ]
+  }
+}
